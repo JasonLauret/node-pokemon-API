@@ -4,7 +4,7 @@
   "description": "An awesome API Rest to handle some pokemons.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JasonLauret/node-pokemon-API/issues"
   },
-  "homepage": "https://github.com/JasonLauret/node-pokemon-API#readme"
+  "homepage": "https://github.com/JasonLauret/node-pokemon-API#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
