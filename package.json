@@ -18,5 +18,8 @@
   "homepage": "https://github.com/JasonLauret/node-pokemon-API#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
