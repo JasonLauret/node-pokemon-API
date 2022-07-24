@@ -6,10 +6,10 @@ const port = 3000;
 
 app.get('/', (req,res) => res.send('Hello again, Express !'));
 
-app.get('/api/pokemon/:id', (req,res) => {
+app.get('/api/pokemons/:id', (req,res) => {
     const id = parseInt(req.params.id);
     const pokemon = pokemons.find(pokemon => pokemon.id === id);
-    res.send(`Vous avez demandez le pokémon ${pokemon.name}. !`);
+    res.json(pokemon);
 });
 
 app.get('/api/pokemons', (req,res) => {
