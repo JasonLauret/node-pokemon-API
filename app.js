@@ -15,7 +15,8 @@ app.get('/api/pokemons/:id', (req,res) => {
 });
 
 app.get('/api/pokemons', (req,res) => {
-    res.send(`Il y a ${pokemons.length} pokémons dans le pokédex pour le moment.`);
+    const message = 'La liste des pokémons a bien été récupéré';
+    res.json(success(message, pokemons));
 });
 
 app.listen(port,() => console.log(`Notre application Node est démarrée sur : http://localhost:${port}`));
