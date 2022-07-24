@@ -1,4 +1,5 @@
 const express = require('express');
+const {success} = require('./helper.js');
 let pokemons = require('./mock-pokemon');
 
 const app = express();
@@ -9,7 +10,8 @@ app.get('/', (req,res) => res.send('Hello again, Express !'));
 app.get('/api/pokemons/:id', (req,res) => {
     const id = parseInt(req.params.id);
     const pokemon = pokemons.find(pokemon => pokemon.id === id);
-    res.json(pokemon);
+    const message = 'Un pokémon a bien été trouvé.';
+    res.json(success(message, pokemon));
 });
 
 app.get('/api/pokemons', (req,res) => {
