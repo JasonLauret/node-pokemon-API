@@ -26,4 +26,12 @@ app.get('/api/pokemons', (req,res) => {
     res.json(success(message, pokemons));
 });
 
+app.post('/api/pokemons', (req,res) => {
+    const id = 123;
+    const pokemonCreated = {...req.body, ...{id: id, created: new Date()}};
+    pokemons.push(pokemonCreated);
+    const message = `Le pokemon ${pokemonCreated.name} a bien été crée`;
+    res.json(success(message, pokemonCreated));
+})
+
 app.listen(port,() => console.log(`Notre application Node est démarrée sur : http://localhost:${port}`));
