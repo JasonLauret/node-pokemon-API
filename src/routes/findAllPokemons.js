@@ -6,6 +6,6 @@ module.exports = (app) => {
       .then(pokemons => {
         const message = 'La liste des pokémons a bien été récupérée.'
         res.json({ message, data: pokemons })
-      });
+      })
   });
 }
