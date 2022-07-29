@@ -34,13 +34,15 @@ sequelize.sync({force: true})
     .then(_ => {
         console.log('La base de données "Pokedex" a bien été syncronisée')
 
-        Pokemon.create({
-            name: "Bulbizarre",
-            hp: 25,
-            cp: 5,
-            picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
-            types: ["Plante", "Poison"].join() // La méthode join() permet de transformer le tableau des types en chaine de charactère pour la bdd  /  A l'inverse la méthode split(","), permet de transformer la chaine de charactère en tableau pour l'api 
-        }).then(bulbizarre => console.log(bulbizarre.toJSON()))
+        pokemons.map(pokemon => {
+            Pokemon.create({
+                name: pokemon.name,
+                hp: pokemon.hp,
+                cp: pokemon.cp,
+                picture: pokemon.picture,
+                types: pokemon.types.join() // La méthode join() permet de transformer le tableau des types en chaine de charactère pour la bdd  /  A l'inverse la méthode split(","), permet de transformer la chaine de charactère en tableau pour l'api 
+            }).then(bulbizarre => console.log(bulbizarre.toJSON()))
+        })
     })
 
 app
