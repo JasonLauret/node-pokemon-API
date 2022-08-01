@@ -5,6 +5,13 @@ module.exports = (app) => {
   app.get('/api/pokemons', (req, res) => {
     if(req.query.name){
       const name = req.query.name;
+      const limit = parseInt(req.query.limit) || 5;
+
+      if(name.length < 2){
+        const message = `Le terme de recherche doit contenir au minimum 2 caractères`;
+        return res.status(400).json({message})
+      }
+
       return Pokemon.findAndCountAll({ // Permet de récuperer 2 resultat en bdd: 1/tous les éléments présent en bdd et le donnée demander (résultat limité a 5)
         where:{ 
           name: { // <- 'name' est la propriété du modèle pokémon
@@ -12,7 +19,7 @@ module.exports = (app) => {
           }
         },
         order: ['name'],
-        limit: 5
+        limit: limit
       })
       .then(({count, rows}) => {
         const message = `Il y a ${count} pokémon qui correspond au terme de recherche ${name}.`;
