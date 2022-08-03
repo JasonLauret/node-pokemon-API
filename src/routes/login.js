@@ -21,11 +21,12 @@ module.exports = (app) => {
                 }
 
                 //JWT
-                const token = jwt.sign({
-                    userId: user.id,
+                const token = jwt.sign(
+                    { userId: user.id },
                     privateKey,
-                    expiresIn: '24h'
-                })
+                    { expiresIn: '24h' }
+                )
+
 
                 const message = `L'utilisateur a été connecté avec succès`;
                 return res.json({ message, data: user, token });
