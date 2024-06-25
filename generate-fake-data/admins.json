@@ -1,0 +1,112 @@
+[
+  {
+    "nom": "Rice",
+    "prenom": "Baby",
+    "email": "rice.baby@gmail.com",
+    "adresse1": "5767 Crooks Keys",
+    "adresse2": "Suite 458",
+    "ville": "Zemlakcester",
+    "codePostal": "73445",
+    "pays": "Comoros",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Carroll",
+    "prenom": "Maud",
+    "email": "carroll.maud@gmail.com",
+    "adresse1": "4106 Chapel Close",
+    "adresse2": "Suite 942",
+    "ville": "Larkinboro",
+    "codePostal": "57762",
+    "pays": "Hungary",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Marvin",
+    "prenom": "River",
+    "email": "marvin.river@gmail.com",
+    "adresse1": "85341 Tania Road",
+    "adresse2": "Suite 818",
+    "ville": "West Scarlettboro",
+    "codePostal": "85280",
+    "pays": "Ghana",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Feil",
+    "prenom": "Pedro",
+    "email": "feil.pedro@gmail.com",
+    "adresse1": "81400 Schuster Forest",
+    "adresse2": "Suite 612",
+    "ville": "Stehrfurt",
+    "codePostal": "75519-3192",
+    "pays": "Bouvet Island",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Bauch",
+    "prenom": "Bernadine",
+    "email": "bauch.bernadine@gmail.com",
+    "adresse1": "19351 Sydney Orchard",
+    "adresse2": "Suite 227",
+    "ville": "Fort Leslyfield",
+    "codePostal": "79915",
+    "pays": "Somalia",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Dicki",
+    "prenom": "Antonetta",
+    "email": "dicki.antonetta@gmail.com",
+    "adresse1": "1150 Flatley Extension",
+    "adresse2": "Apt. 298",
+    "ville": "Norwalk",
+    "codePostal": "12002",
+    "pays": "Faroe Islands",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Schaden",
+    "prenom": "Pink",
+    "email": "schaden.pink@gmail.com",
+    "adresse1": "750 The Avenue",
+    "adresse2": "Apt. 376",
+    "ville": "Fort Elfrieda",
+    "codePostal": "05612",
+    "pays": "Bahamas",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Klein",
+    "prenom": "Vernice",
+    "email": "klein.vernice@gmail.com",
+    "adresse1": "77579 Lang Branch",
+    "adresse2": "Apt. 118",
+    "ville": "Lee's Summit",
+    "codePostal": "50723-4641",
+    "pays": "Ethiopia",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Hyatt",
+    "prenom": "Olen",
+    "email": "hyatt.olen@gmail.com",
+    "adresse1": "3349 Broad Lane",
+    "adresse2": "Apt. 775",
+    "ville": "Port Erafurt",
+    "codePostal": "34502",
+    "pays": "Mayotte",
+    "motDePasse": "azerty"
+  },
+  {
+    "nom": "Jacobson",
+    "prenom": "Carolanne",
+    "email": "jacobson.carolanne@gmail.com",
+    "adresse1": "870 Janelle Centers",
+    "adresse2": "Suite 612",
+    "ville": "Jersey City",
+    "codePostal": "40571",
+    "pays": "Trinidad and Tobago",
+    "motDePasse": "azerty"
+  }
+]
