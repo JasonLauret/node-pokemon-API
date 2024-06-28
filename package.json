@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "An awesome API Rest to handle some pokemons.",
   "main": "app.js",
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.11.0"
+  },
   "scripts": {
     "start": "SET NODE_ENV=production & node app.js",
     "dev": "SET NODE_ENV=development & nodemon app.js"
