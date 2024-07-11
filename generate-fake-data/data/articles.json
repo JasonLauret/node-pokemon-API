@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "codeArticle": "05fb2646-1049-4427-98d3-91f71fd6b464",
+    "prixUnitaireHT": "440.00",
+    "prixUnitaireTTC": "470.80",
+    "designation": "Raffiné Granit Saucisses",
+    "tauxTVA": 7,
+    "categorie": ""
+  },
+  {
+    "id": 1,
+    "codeArticle": "038fdcdc-02b5-40c0-b6c2-9718aa4e9a2d",
+    "prixUnitaireHT": "800.00",
+    "prixUnitaireTTC": "848.00",
+    "designation": "Intelligent Granit Chaussures",
+    "tauxTVA": 6,
+    "categorie": ""
+  },
+  {
+    "id": 2,
+    "codeArticle": "60e15b1c-2ff3-4513-932c-b2b696c54cc5",
+    "prixUnitaireHT": "925.00",
+    "prixUnitaireTTC": "999.00",
+    "designation": "Artisanal Béton Boule",
+    "tauxTVA": 8,
+    "categorie": ""
+  },
+  {
+    "id": 3,
+    "codeArticle": "920627db-4cc6-4ab5-9e4d-6651bcc89fb7",
+    "prixUnitaireHT": "180.00",
+    "prixUnitaireTTC": "203.40",
+    "designation": "Ergonomique Congelé Clavier",
+    "tauxTVA": 13,
+    "categorie": ""
+  },
+  {
+    "id": 4,
+    "codeArticle": "924aed0c-fa62-45d6-8637-ae1029a76ed1",
+    "prixUnitaireHT": "106.00",
+    "prixUnitaireTTC": "122.96",
+    "designation": "Incroyable Granit Poulet",
+    "tauxTVA": 16,
+    "categorie": ""
+  },
+  {
+    "id": 5,
+    "codeArticle": "6a5338f8-03ec-491c-b888-07eb347a31e2",
+    "prixUnitaireHT": "674.00",
+    "prixUnitaireTTC": "734.66",
+    "designation": "Fait main Plastique Ordinateur",
+    "tauxTVA": 9,
+    "categorie": ""
+  },
+  {
+    "id": 6,
+    "codeArticle": "2bde8344-de00-4f2f-ab7a-5a16f1163198",
+    "prixUnitaireHT": "439.00",
+    "prixUnitaireTTC": "509.24",
+    "designation": "Petit Congelé Savon",
+    "tauxTVA": 16,
+    "categorie": ""
+  },
+  {
+    "id": 7,
+    "codeArticle": "d87cd9b2-ffc3-4b2c-ba94-bf3a0ef76568",
+    "prixUnitaireHT": "520.00",
+    "prixUnitaireTTC": "618.80",
+    "designation": "Fantastique Granit Ordinateur",
+    "tauxTVA": 19,
+    "categorie": ""
+  },
+  {
+    "id": 8,
+    "codeArticle": "58b719d3-64c6-47c8-979a-8cd3ef65a606",
+    "prixUnitaireHT": "133.00",
+    "prixUnitaireTTC": "156.94",
+    "designation": "Rustique Caoutchouc Chaussures",
+    "tauxTVA": 18,
+    "categorie": ""
+  },
+  {
+    "id": 9,
+    "codeArticle": "738c1200-09f8-48a8-b4a8-3a81910544e2",
+    "prixUnitaireHT": "646.00",
+    "prixUnitaireTTC": "717.06",
+    "designation": "Sans marque Béton Thon",
+    "tauxTVA": 11,
+    "categorie": ""
+  }
+]
