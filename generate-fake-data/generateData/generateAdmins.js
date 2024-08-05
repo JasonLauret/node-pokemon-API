@@ -17,6 +17,7 @@ function generateFakeAdmins(num) {
       nom: nom,
       prenom: prenom,
       email: `${nom.toLowerCase()}.${prenom.toLowerCase()}@gmail.com`,
+      telephone: faker.phone.number(),
       adresse1: faker.location .streetAddress(),
       adresse2: faker.location .secondaryAddress(),
       ville: faker.location .city(),
